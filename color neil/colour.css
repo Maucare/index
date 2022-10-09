@@ -1,0 +1,471 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html {
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+li{
+    list-style: none;
+}
+h1{
+    margin: 1.5rem;
+    text-transform: uppercase;
+}
+.categories ul{
+    display: flex;
+}
+.categories li{
+    flex-grow: 1;
+    list-style: none;
+}
+.categories a{
+    display: block;
+    height: 2rem;
+    line-height: 0;
+    text-indent: -9999px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+.categories li:nth-of-type(1) a{
+    background: black;
+}
+.categories li:nth-of-type(2) a{
+    background: yellow;
+}
+.categories li:nth-of-type(3) a{
+    background: cyan;
+}
+.categories li:nth-of-type(4) a{
+    background: green;
+}
+.categories li:nth-of-type(5) a{
+    background: red;
+}
+.categories li:nth-of-type(6) a{
+    background: blue;
+}
+.categories li:nth-of-type(7) a{
+    background: purple;
+}
+.categories li:nth-of-type(8) a{
+    background: pink;
+}
+.categories li:nth-of-type(9) a{
+    background: orange;
+}
+.categories li:nth-of-type(10) a{
+    background: gray;
+}
+.categories li:nth-of-type(11) a{
+    background: white;
+}
+.categories li:nth-of-type(12) a{
+    background: brown;
+}
+
+/*STYLE FOR THE INDEX PAGE*/
+.neil{
+    padding: 160px 0;
+}
+.neil:nth-of-type(1){
+    background-color:slateblue ;
+}
+.neil:nth-of-type(2){
+    background-color:moccasin ;
+}
+.neil:nth-of-type(3){
+    background-color: forestgreen;
+}
+.neil:nth-of-type(4){
+    background-color:firebrick ;
+}
+.neil:nth-of-type(5){
+    background-color:darkslategray ;
+}
+.neil:nth-of-type(6){
+    background-color:olivedrab ;
+}
+.neil:nth-of-type(7){
+    background-color:mintcream ;
+}
+.neil:nth-of-type(8){
+    background-color:darkcyan ;
+}
+.neil:nth-of-type(9){
+    background-color: lightslategray;
+}
+.neil:nth :nth-of-type(10){
+    background-color: azure;
+}
+.neil:nth-of-type(11){
+    background-color:chartreuse ;
+}
+.neil:nth-of-type(12){
+    background-color: thistle;
+}
+
+.dark{
+    color: white;
+}
+.light{
+    color: black;
+}
+
+.neil ul{
+    display: flex;
+    justify-content: center;
+}
+.neil ul li{
+    margin: 0 1rem;
+}
+
+/*STYLE FOR THE YELLOW PAGE*/
+.neil1{
+    padding: 160px 0;
+}
+.neil1:nth-of-type(1){
+    background-color:blue ;
+}
+.neil1:nth-of-type(2){
+    background-color:lavender ;
+}
+.neil1:nth-of-type(3){
+    background-color:teal ;
+}
+.neil1:nth-of-type(4){
+    background-color:wheat ;
+}
+.neil1:nth-of-type(5){
+    background-color:gray ;
+}
+.neil1:nth-of-type(6){
+    background-color:darkgreen ;
+}
+.neil1:nth-of-type(7){
+    background-color:ghostwhite ;
+}
+.neil1:nth-of-type(8){
+    background-color:navy ;
+}
+.neil1:nth-of-type(9){
+    background-color:darkseagreen ;
+}
+.neil1:nth-of-type(10){
+    background-color:peru ;
+}
+.neil1:nth-of-type(11){
+    background-color:indianred ;
+}
+.neil1:nth-of-type(12){
+    background-color:red ;
+}
+
+.neil1 ul{
+    display: flex;
+    justify-content: center;
+}
+.neil1 ul li{
+    margin: 0 1rem;
+}
+
+/* STYLE FOR CYAN PAGE */
+.neil2{
+    padding: 160px 0;
+}
+.neil2:nth-of-type(1){
+    background-color: seagreen;
+}
+.neil2:nth-of-type(2){
+    background-color: coral;
+}
+.neil2:nth-of-type(3){
+    background-color: turquoise;
+}
+.neil2:nth-of-type(4){
+    background-color: aqua;
+}
+.neil2:nth-of-type(5){
+    background-color: palegreen;
+}
+.dark{
+    color: white;
+}
+.light{
+    color: black;
+}
+
+.neil2 ul{
+    display: flex;
+    justify-content: center;
+}
+.neil2 ul li{
+    margin: 0 1rem;
+}
+
+/* STYLE FOR THE GREEN PAGE*/
+.neil3{
+    padding: 160px  0;
+}
+.neil3:nth-of-type(1){
+    background-color:tomato ;
+}
+.neil3:nth-of-type(2){
+    background-color: purple;
+}
+.neil3:nth-of-type(3){
+    background-color:floralwhite;
+}
+.neil3:nth-of-type(4){
+    background-color: blanchedalmond;
+}
+.neil3:nth-of-type(5){
+    background-color: lightgray;
+}
+
+.dark{
+    color: white;
+}
+.light{
+    color: black;
+}
+
+.neil3 ul{
+    display: flex;
+    justify-content: center;
+}
+.neil3 ul li{
+    margin: 0 1rem;
+}
+
+/* STYLE FOR THE RED PAGE*/
+.neil4{
+    padding: 160px 0;
+}
+.neil4:nth-of-type(1){
+    background-color:slategray ;
+}
+.neil:nth-of-type(2){
+    background-color: brown;
+}
+.neil4:nth-of-type(3){
+    background-color: violet;
+}
+.neil4:nth-of-type(4){
+    background-color: gold;
+}
+.neil4:nth-of-type(5){
+    background-color: darkorchid;
+}
+
+.dark{
+    color:white;
+}
+.light{
+    color: black;
+}
+
+.neil4 ul{
+    display: flex;
+    justify-content: center;
+}
+
+.neil4 ul li{
+    margin: 0 1rem;
+}
+
+/*STYLE FOR THE BLUE PAGE*/
+.neil5{
+    padding: 160px 0;
+}
+.neil5:nth-of-type(1){
+    background-color: hotpink;
+}
+.neil5:nth-of-type(2){
+    background-color:yellow ;
+}
+.neil5:nth-of-type(3){
+    background-color: mediumvioletred;
+}
+.neil5:nth-of-type(4){
+    background-color:darkkhaki ;
+}
+.neil5:nth-of-type(5){
+    background-color: bisque;
+}
+.neil5 ul{
+    display: flex;
+    justify-content: center;
+}
+.neil5 ul li{
+    margin: 0 1rem;
+}
+
+/*STYLE FOR THE PURPLE PAGE*/
+
+.neil6{
+    padding: 160px 0;
+}
+
+.neil6:nth-of-type(1){
+    background-color:peachpuff ;
+}
+.neil6:nth-of-type(2){
+    background-color:linen ;
+}
+.neil6:nth-of-type(3){
+    background-color:lightpink ;
+}
+.neil6:nth-of-type(4){
+    background-color:lightcoral ;
+}
+.neil6:nth-of-type(5){
+    background-color:plum ;
+}
+.neil6 ul{
+    display: flex;
+    justify-content: center;
+}
+.neil6 ul li{
+    margin: 0 1rem;
+}
+
+/*STYLE FOR THE PINK PAGE*/
+
+.neil7{
+    padding: 160px 0;
+}
+.neil7:nth-of-type(1){
+    background-color:darkmagenta ;
+}
+.neil7:nth-of-type(2){
+    background-color:orangered ;
+}
+.neil7:nth-of-type(3){
+    background-color:cornflowerblue ;
+}
+.neil7:nth-of-type(4){
+    background-color: palevioletred;
+}
+.neil7:nth-of-type(5){
+    background-color:paleturquoise ;
+}
+.neil7 ul{
+    display: flex;
+    justify-content: center;
+}
+.neil7 ul li{
+    margin: 0 1rem;
+}
+
+/*STYLE FOR THE ORANGE PAGE*/
+.neil8{
+    padding: 160px 0;
+}
+.neil8:nth-of-type(1){
+    background-color:oldlace ;
+}
+.neil8:nth-of-type(2){
+    background-color:darkturquoise ;
+}
+.neil8:nth-of-type(3){
+    background-color: crimson;
+}
+.neil8:nth-of-type(4){
+    background-color:royalblue ;
+}
+.neil8:nth-of-type(1){
+    background-color:cadetblue ;
+}
+.neil8 ul{
+    display: flex;
+    justify-content: center;
+}
+.neil8 ul li{
+    margin: 0 1rem;
+}
+
+/*STYLE OF THE GRAY PAGE*/
+.neil9{
+    padding: 160px 0;
+}
+.neil9:nth-of-type(1){
+    background-color:mediumaquamarine ;
+}
+.neil9:nth-of-type(2){
+    background-color: sandybrown;
+}
+.neil9:nth-of-type(3){
+    background-color:antiquewhite ;
+}
+.neil9:nth-of-type(4){
+    background-color:navajowhite ;
+}
+.neil9:nth-of-type(5){
+    background-color: darkgoldenrod;
+}
+.neil9 ul{
+    display: flex;
+    justify-content: center;
+}
+.neil9 ul li{
+    margin: 0 1rem;
+}
+
+/*STYLE FOR THE WHITE PAGE*/
+
+.neil11{
+    padding: 160px 0 ;
+}
+.neil11:nth-of-type(1){
+    background-color:palegreen ;
+}
+.neil11:nth-of-type(2){
+    background-color:ivory ;
+}
+.neil11:nth-of-type(3){
+    background-color: lavenderblush;
+}
+.neil11:nth-of-type(4){
+    background-color: dodgerblue;
+}
+.neil11:nth-of-type(5){
+    background-color: rebeccapurple;
+}
+.neil11 ul{
+    display: flex;
+    justify-content: center;
+}
+.neil11 ul li{
+    margin: 0 1rem;
+}
+
+/*STYLE FOR THE BROWN PAGE*/
+
+.neil12{
+    padding: 160px 0;
+}
+.neil12:nth-of-type(1){
+    background-color:blueviolet ;
+}
+.neil12:nth-of-type(2){
+    background-color:indigo ;
+}
+.neil12:nth-of-type(3){
+    background-color:darkorchid ;
+}
+.neil12:nth-of-type(4){
+    background-color:dimgrey ;
+}
+.neil12:nth-of-type(5){
+    background-color:black ;
+}
+.neil12 ul{
+    display: flex;
+    justify-content: center;
+}
+.neil12 ul li{
+    margin: 0 1rem;
+}
